@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leedear — The Art of Subtle Shine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Manrope:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ── TOP NAVIGATION ──────────────────────── -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <div class="nav__left">
+        <a href="index.html" class="nav__logo" aria-label="Leedear home">Leedear</a>
+        <ul class="nav__links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <button class="nav__cart" aria-label="Shopping basket">
+        <span class="nav__cart-icon">shopping_basket</span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── HERO ───────────────────────────────── -->
+    <section class="hero container">
+      <div class="hero__grid">
+
+        <div class="hero__copy-col">
+          <h1 class="hero__headline fade-up fade-up--d1">
+            The Art of<br><em>Subtle Shine</em>
+          </h1>
+          <p class="hero__copy fade-up fade-up--d2">
+            Curated minimalist pieces designed to elevate the everyday with an ethereal, luminous glow.
+          </p>
+          <a href="shop.html" class="btn-primary fade-up fade-up--d3">Shop Collection</a>
+        </div>
+
+        <div class="hero__visual fade-up fade-up--d2">
+          <div class="placeholder placeholder--hero hero__image" role="img" aria-label="Leedear hero visual"></div>
+          <div class="hero__card" aria-hidden="true">
+            <p class="hero__card-title">Curated Elegance</p>
+            <p class="hero__card-text">Each piece is hand-finished in our atelier with sustainable materials.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── FEATURED PIECES ────────────────────── -->
+    <section class="featured container" aria-labelledby="featured-title">
+      <div class="featured__header">
+        <div>
+          <h2 class="featured__title" id="featured-title">Featured Pieces</h2>
+          <div class="featured__rule" aria-hidden="true"></div>
+        </div>
+        <a href="shop.html" class="featured__link">View All Arrivals</a>
+      </div>
+
+      <div class="product-grid">
+
+        <article class="product-card fade-up fade-up--d1">
+          <div class="placeholder product-card__image" role="img" aria-label="Aurelia Chain necklace placeholder"></div>
+          <div class="product-card__meta">
+            <div>
+              <p class="product-card__category">Necklaces</p>
+              <h3 class="product-card__name">Aurelia Chain</h3>
+            </div>
+            <p class="product-card__price">$240.00</p>
+          </div>
+        </article>
+
+        <article class="product-card fade-up fade-up--d2">
+          <div class="placeholder product-card__image" role="img" aria-label="Luminous Hoops earrings placeholder"></div>
+          <div class="product-card__meta">
+            <div>
+              <p class="product-card__category">Earrings</p>
+              <h3 class="product-card__name">Luminous Hoops</h3>
+            </div>
+            <p class="product-card__price">$185.00</p>
+          </div>
+        </article>
+
+        <article class="product-card fade-up fade-up--d3">
+          <div class="placeholder product-card__image" role="img" aria-label="Vellum Band ring placeholder"></div>
+          <div class="product-card__meta">
+            <div>
+              <p class="product-card__category">Rings</p>
+              <h3 class="product-card__name">Vellum Band</h3>
+            </div>
+            <p class="product-card__price">$310.00</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ── PHILOSOPHY QUOTE ───────────────────── -->
+    <section class="philosophy" aria-label="Brand philosophy">
+      <div class="philosophy__inner">
+        <span class="eyebrow" style="display:block;margin-bottom:2rem;">Our Philosophy</span>
+        <blockquote class="philosophy__quote">
+          "Jewelry should be like a gentle whisper, not a loud shout. It's the finishing touch of your unique aura."
+        </blockquote>
+        <div class="philosophy__rule" aria-hidden="true"></div>
+        <p class="philosophy__body">
+          At Leedear, we believe in the power of minimalism. Our pieces are crafted to catch the light in the most subtle ways, celebrating the beauty of the wearer rather than competing with it.
+        </p>
+      </div>
+    </section>
+
+    <!-- ── SPOTLIGHT / GIFT SET ───────────────── -->
+    <section class="spotlight container" aria-labelledby="spotlight-title">
+      <div class="spotlight__card">
+
+        <div class="spotlight__text-col">
+          <h3 class="spotlight__headline" id="spotlight-title">The Curated Gift Set</h3>
+          <p class="spotlight__body">
+            A perfect harmony of our best-selling pieces, selected to complement each other and create a cohesive, luminous look.
+          </p>
+          <a href="shop.html" class="btn-ghost">Explore Sets</a>
+        </div>
+
+        <div class="spotlight__image-col">
+          <div class="placeholder spotlight__image" role="img" aria-label="Curated gift set visual"></div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <p class="footer__logo">Leedear</p>
+    <p class="footer__tagline">In silentio, forma invenitur</p>
+    <div class="footer__divider" aria-hidden="true"></div>
+    <p class="footer__copy">© 2026 Leedear. All rights reserved.</p>
+  </footer>
+
+  <!-- ── MOBILE BOTTOM NAV ──────────────────── -->
+  <nav class="mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html" class="mobile-nav__item active" aria-label="Home">
+      <span class="icon" aria-hidden="true">home</span>
+      <span class="mobile-nav__label">Home</span>
+    </a>
+    <a href="shop.html" class="mobile-nav__item" aria-label="Shop">
+      <span class="icon" aria-hidden="true">storefront</span>
+      <span class="mobile-nav__label">Shop</span>
+    </a>
+    <a href="about.html" class="mobile-nav__item" aria-label="About">
+      <span class="icon" aria-hidden="true">info</span>
+      <span class="mobile-nav__label">About</span>
+    </a>
+  </nav>
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <script src="main.js" defer></script>
+</body>
+</html>

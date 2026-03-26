@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Leedear — Atelier Luminous</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Manrope:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ── TOP NAVIGATION ──────────────────────── -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <div class="nav__left">
+        <a href="index.html" class="nav__logo" aria-label="Leedear home">Leedear</a>
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+        </ul>
+      </div>
+      <button class="nav__cart" aria-label="Shopping basket">
+        <span class="nav__cart-icon">shopping_basket</span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── ABOUT HERO ─────────────────────────── -->
+    <header class="about-hero container" aria-labelledby="about-title">
+      <p class="eyebrow about-hero__eyebrow">Our Narrative</p>
+      <h1 class="about-hero__headline fade-up fade-up--d1" id="about-title">
+        A confluence of ancient <em>Baku heritage</em> and modern ethereal restraint.
+      </h1>
+    </header>
+
+    <!-- ── PHILOSOPHY ────────────────────────── -->
+    <section class="about-philosophy container" aria-labelledby="philosophy-title">
+      <div class="about-philosophy__grid">
+
+        <div>
+          <h2 class="about-philosophy__title" id="philosophy-title">The Philosophy</h2>
+          <div class="about-philosophy__rule" aria-hidden="true"></div>
+        </div>
+
+        <div>
+          <p class="about-philosophy__body-lg">
+            At Leedear, we believe jewelry is not merely an ornament but a silent dialogue between the wearer and the void. Our design ethos is rooted in the concept of "The Ethereal Curator" — selecting only the most essential forms to express the complexity of the human spirit.
+          </p>
+          <p class="about-philosophy__body">
+            We eschew the ephemeral trends of the industry in favor of a timeless, architectural silhouette. Each piece is a meditation on light, shadow, and the tactile honesty of precious metals.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── STUDIO ─────────────────────────────── -->
+    <section class="about-studio" aria-labelledby="studio-title">
+      <div class="about-studio__inner">
+        <p class="eyebrow about-studio__label">The Studio</p>
+        <h2 class="about-studio__headline fade-up fade-up--d1" id="studio-title">
+          Baku: The Heart of the Silk Road
+        </h2>
+        <div class="about-studio__rule" aria-hidden="true"></div>
+        <p class="about-studio__body">
+          Situated in the historic heart of Baku, Azerbaijan, our atelier is influenced by the city's unique position as a bridge between East and West. The wind-swept shores of the Caspian and the intricate masonry of the Old City inform our geometric precision and organic textures.
+        </p>
+      </div>
+    </section>
+
+    <!-- ── MANIFESTO ──────────────────────────── -->
+    <section class="about-manifesto" aria-label="Brand manifesto">
+      <blockquote class="about-manifesto__quote">
+        "In silentio, forma invenitur."
+      </blockquote>
+      <p class="about-manifesto__translation">In silence, form is found.</p>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <p class="footer__logo">Leedear</p>
+    <p class="footer__tagline">In silentio, forma invenitur</p>
+    <div class="footer__divider" aria-hidden="true"></div>
+    <p class="footer__copy">© 2026 Leedear. All rights reserved.</p>
+  </footer>
+
+  <!-- ── MOBILE BOTTOM NAV ──────────────────── -->
+  <nav class="mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html" class="mobile-nav__item" aria-label="Home">
+      <span class="icon" aria-hidden="true">home</span>
+      <span class="mobile-nav__label">Home</span>
+    </a>
+    <a href="shop.html" class="mobile-nav__item" aria-label="Shop">
+      <span class="icon" aria-hidden="true">storefront</span>
+      <span class="mobile-nav__label">Shop</span>
+    </a>
+    <a href="about.html" class="mobile-nav__item active" aria-label="About">
+      <span class="icon" aria-hidden="true">info</span>
+      <span class="mobile-nav__label">About</span>
+    </a>
+  </nav>
+
+  <script src="main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leedear — Shop the Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Manrope:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ── TOP NAVIGATION ──────────────────────── -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <div class="nav__left">
+        <a href="index.html" class="nav__logo" aria-label="Leedear home">Leedear</a>
+        <ul class="nav__links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <button class="nav__cart" aria-label="Shopping basket">
+        <span class="nav__cart-icon">shopping_basket</span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── SHOP HEADER ────────────────────────── -->
+    <header class="shop-header container" aria-labelledby="shop-title">
+      <div>
+        <p class="eyebrow" style="margin-bottom:1.25rem;">Permanent Collection</p>
+        <h1 class="shop-header__headline fade-up fade-up--d1" id="shop-title">
+          The Silent <em>Treasury</em>
+        </h1>
+      </div>
+      <p class="shop-header__desc fade-up fade-up--d2">
+        A curated selection of archival pieces and new arrivals, unified by a singular vision of understated luxury.
+      </p>
+    </header>
+
+    <!-- ── PRODUCT GRID ───────────────────────── -->
+    <section class="container" aria-label="Products">
+      <div class="shop-grid">
+
+        <article class="product-card fade-up fade-up--d1">
+          <div class="placeholder product-card__image" style="position:relative;" role="img" aria-label="Vellum Band product image">
+            <span style="
+              position:absolute;top:.75rem;left:.75rem;
+              background:rgba(250,249,248,0.82);
+              backdrop-filter:blur(8px);
+              -webkit-backdrop-filter:blur(8px);
+              padding:0.25rem 0.75rem;
+              font-family:'Manrope',sans-serif;
+              font-size:0.5rem;
+              letter-spacing:0.15em;
+              text-transform:uppercase;
+              font-weight:600;
+              opacity:0;
+              transition:opacity 0.25s;
+            " class="new-badge">New Arrival</span>
+          </div>
+          <div class="product-card__meta" style="padding:0 2px;">
+            <h3 class="product-card__name" style="font-size:1.0625rem;">Vellum Band</h3>
+            <p class="product-card__price" style="font-size:0.75rem;letter-spacing:0.06em;">€ 1,250</p>
+          </div>
+        </article>
+
+        <article class="product-card fade-up fade-up--d2">
+          <div class="placeholder product-card__image" role="img" aria-label="Ethereal Drop product image"></div>
+          <div class="product-card__meta" style="padding:0 2px;">
+            <h3 class="product-card__name" style="font-size:1.0625rem;">Ethereal Drop</h3>
+            <p class="product-card__price" style="font-size:0.75rem;letter-spacing:0.06em;">€ 890</p>
+          </div>
+        </article>
+
+        <article class="product-card fade-up fade-up--d3">
+          <div class="placeholder product-card__image" role="img" aria-label="Sine Pendant product image"></div>
+          <div class="product-card__meta" style="padding:0 2px;">
+            <h3 class="product-card__name" style="font-size:1.0625rem;">Sine Pendant</h3>
+            <p class="product-card__price" style="font-size:0.75rem;letter-spacing:0.06em;">€ 1,580</p>
+          </div>
+        </article>
+
+        <article class="product-card fade-up fade-up--d1">
+          <div class="placeholder product-card__image" style="aspect-ratio:1;" role="img" aria-label="Tether Bracelet product image"></div>
+          <div class="product-card__meta" style="padding:0 2px;">
+            <h3 class="product-card__name" style="font-size:1.0625rem;">Tether Bracelet</h3>
+            <p class="product-card__price" style="font-size:0.75rem;letter-spacing:0.06em;">€ 3,400</p>
+          </div>
+        </article>
+
+        <article class="product-card fade-up fade-up--d2">
+          <div class="placeholder product-card__image" role="img" aria-label="Lumen Pearl product image"></div>
+          <div class="product-card__meta" style="padding:0 2px;">
+            <h3 class="product-card__name" style="font-size:1.0625rem;">Lumen Pearl</h3>
+            <p class="product-card__price" style="font-size:0.75rem;letter-spacing:0.06em;">€ 750</p>
+          </div>
+        </article>
+
+        <article class="product-card fade-up fade-up--d3">
+          <div class="placeholder product-card__image" role="img" aria-label="Basal Ring product image"></div>
+          <div class="product-card__meta" style="padding:0 2px;">
+            <h3 class="product-card__name" style="font-size:1.0625rem;">Basal Ring</h3>
+            <p class="product-card__price" style="font-size:0.75rem;letter-spacing:0.06em;">€ 2,100</p>
+          </div>
+        </article>
+
+        <article class="product-card fade-up fade-up--d1">
+          <div class="placeholder product-card__image" role="img" aria-label="Strata Stack product image"></div>
+          <div class="product-card__meta" style="padding:0 2px;">
+            <h3 class="product-card__name" style="font-size:1.0625rem;">Strata Stack</h3>
+            <p class="product-card__price" style="font-size:0.75rem;letter-spacing:0.06em;">€ 1,120</p>
+          </div>
+        </article>
+
+        <article class="product-card fade-up fade-up--d2">
+          <div class="placeholder product-card__image" role="img" aria-label="Axiom Pin product image"></div>
+          <div class="product-card__meta" style="padding:0 2px;">
+            <h3 class="product-card__name" style="font-size:1.0625rem;">Axiom Pin</h3>
+            <p class="product-card__price" style="font-size:0.75rem;letter-spacing:0.06em;">€ 680</p>
+          </div>
+        </article>
+
+        <article class="product-card fade-up fade-up--d3">
+          <div class="placeholder product-card__image" style="aspect-ratio:3/4;" role="img" aria-label="Nocturnal Drop product image"></div>
+          <div class="product-card__meta" style="padding:0 2px;">
+            <h3 class="product-card__name" style="font-size:1.0625rem;">Nocturnal Drop</h3>
+            <p class="product-card__price" style="font-size:0.75rem;letter-spacing:0.06em;">€ 2,450</p>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- ── SHOP SPOTLIGHT ──────────────────── -->
+      <section class="shop-spotlight" aria-labelledby="shop-spotlight-title">
+
+        <div class="shop-spotlight__text">
+          <p class="eyebrow shop-spotlight__label">The Spotlight</p>
+          <h2 class="shop-spotlight__headline" id="shop-spotlight-title">
+            Archival <em>Gold</em> Link
+          </h2>
+          <p class="shop-spotlight__body">
+            A limited re-issue of our first collection's centerpiece. Each link is hand-finished in our studio.
+          </p>
+          <a href="#" class="btn-primary">Acquire Piece</a>
+        </div>
+
+        <div class="shop-spotlight__visual">
+          <div class="shop-spotlight__circle" aria-hidden="true"></div>
+          <div class="shop-spotlight__image">
+            <div class="placeholder" style="width:100%;height:100%;" role="img" aria-label="Archival Gold Link spotlight visual"></div>
+          </div>
+        </div>
+
+      </section>
+
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ─────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <p class="footer__logo">Leedear</p>
+    <p class="footer__tagline">In silentio, forma invenitur</p>
+    <div class="footer__divider" aria-hidden="true"></div>
+    <p class="footer__copy">© 2026 Leedear. All rights reserved.</p>
+  </footer>
+
+  <!-- ── MOBILE BOTTOM NAV ──────────────────── -->
+  <nav class="mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html" class="mobile-nav__item" aria-label="Home">
+      <span class="icon" aria-hidden="true">home</span>
+      <span class="mobile-nav__label">Home</span>
+    </a>
+    <a href="shop.html" class="mobile-nav__item active" aria-label="Shop">
+      <span class="icon" aria-hidden="true">storefront</span>
+      <span class="mobile-nav__label">Shop</span>
+    </a>
+    <a href="about.html" class="mobile-nav__item" aria-label="About">
+      <span class="icon" aria-hidden="true">info</span>
+      <span class="mobile-nav__label">About</span>
+    </a>
+  </nav>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
